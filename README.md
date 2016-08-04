@@ -18,7 +18,7 @@ Malignant (possible disease). We need to predict whether new patients are benign
 
 ###Loading and understanding the dataset
 ```{r}
-setwd("C:/Personal/V2Maestros/Modules/Machine Learning Algorithms/Advanced Methods")
+setwd("C:/Modules/Machine Learning Algorithms/Advanced Methods")
 
 cancer_data <- read.csv("breast_cancer.csv")
 
@@ -346,4 +346,4 @@ results
 
 ##Conclusions
 Given that there is one main principal component PC1, most algorithms will perform with excellent accuracy.
-This example shows how large predictors can be easily compressed using PCA and then used for prediction.
+The large predictors can be easily compressed using PCA and then used for prediction.
